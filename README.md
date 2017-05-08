@@ -12,3 +12,21 @@ docker run -ti dlanguage/drepl
 ```
 
 This will start a Repl for D.
+Once started, output will be similar to the following:
+
+```
+$ docker run -ti dlanguage/drepl
+Welcome to D REPL.
+D>
+```
+
+Use it like:
+
+```
+D> auto a = 23;
+a
+D> import std.stdio;
+std
+D> writefln("a is %s", a);
+a is 23
+```
