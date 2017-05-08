@@ -30,3 +30,6 @@ std
 D> writefln("a is %s", a);
 a is 23
 ```
+## References
+
+- https://github.com/MartinNowak/drepl
